@@ -1,0 +1,12 @@
+/* BASIC STYLES HERE */
+.content {
+  width: 100%;
+  background-color: var(--bs-dark);
+  color: var(--bs-light)
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 50%;
+  }
+}
