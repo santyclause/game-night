@@ -5,6 +5,15 @@
   color: var(--bs-light)
 }
 
+.mbtn {
+  border: none;
+  background-color: transparent;
+}
+
+.player {
+  font-size: 2em;
+}
+
 @media (min-width: 768px) {
   .content {
     width: 50%;

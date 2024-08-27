@@ -1,5 +1,4 @@
 import { router } from './router-config.js';
-import { HomeController } from './controllers/HomeController.js';
 import { PlayerController } from './controllers/PlayerController.js';
 const USE_ROUTER = false
 

@@ -48,12 +48,15 @@
         <!-- <div class="col-12 col-md-6 text-center player">
           <span>icon</span>
           <span>Name</span>
-          <button class="btn text-light"><i class="mdi mdi-minus-circle-outline"></i></button>
+          <button class="mbtn text-light"><i class="mdi mdi-minus-circle-outline"></i></button>
           <span>10</span>
-          <button class="btn text-light"><i class="mdi mdi-plus-circle-outline"></i></button>
+          <button class="mbtn text-light"><i class="mdi mdi-plus-circle-outline"></i></button>
         </div> -->
       </section>
-      <button>Add Player</button>
+      <form class="d-flex justify-content-center" onsubmit="app.PlayerController.addPlayer(playerName)">
+        <input type="text" placeholder="Insert Name Here" name="playerName" required />
+        <button type="submit">Add Player</button>
+      </form>
     </div>
   </main>
 

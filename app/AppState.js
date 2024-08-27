@@ -4,7 +4,7 @@ import { createObservableProxy } from './utils/ObservableProxy.js'
 
 class ObservableAppState extends EventEmitter {
   iconList = ['🐀', '🦄', '🤡', '😡', '🦊', '🐦‍🔥', '🐦‍⬛', '🪽', '🦆', '🐍', '🦔', '🦨', '🐒', '🐲', '😭', '🫠', '😏', '😀', '😊', '🙃', '😇', '🤠', '🥸', '🦀', '🦐', '🧐', '👻']
-  players = [new Player("Jake"), new Player("Mick"), new Player("Jeremy")]
+  players = [new Player("Jake", '🐍'), new Player("Mick", '🧙'), new Player("Jeremy", '⚔️')]
 }
 
 export const AppState = createObservableProxy(new ObservableAppState())
